@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-# Service of the application
-
-
-=======
->>>>>>> bf02e14dfccf299d7779597b71af01a319d7604e
 # Service for the application
 apiVersion: v1
 kind: Service

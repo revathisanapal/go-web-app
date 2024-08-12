@@ -5,10 +5,17 @@
 replicaCount: 1
 
 image:
+<<<<<<< HEAD
   repository: revathisanapala/webpage1
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "v1"
+=======
+  repository: abhishekf5/go-web-app
+  pullPolicy: IfNotPresent
+  # Overrides the image tag whose default is the chart appVersion.
+  tag: "10356992955"
+>>>>>>> bf02e14dfccf299d7779597b71af01a319d7604e
 
 ingress:
   enabled: false
@@ -21,3 +28,7 @@ ingress:
       paths:
         - path: /
           pathType: ImplementationSpecific
+<<<<<<< HEAD
+=======
+
+>>>>>>> bf02e14dfccf299d7779597b71af01a319d7604e
