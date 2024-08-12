@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 FROM golang:1.22.5 as base
 WORKDIR /app
 COPY go.mod ./
@@ -11,7 +11,7 @@ COPY --from=base /app/main .
 COPY --from=base /app/static ./static
 EXPOSE 8080
 CMD ["./main"]
-=======
+#=======
 # Containerize the go application that we have created
 # This is the Dockerfile that we will use to build the image
 # and run the container
@@ -50,4 +50,4 @@ EXPOSE 8080
 
 # Command to run the application
 CMD ["./main"]
->>>>>>> bf02e14dfccf299d7779597b71af01a319d7604e
+
