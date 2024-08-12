@@ -1,10 +1,10 @@
-<<<<<<< HEAD
+
 # This is a deployment manifest file for a simple web application
 # 
 #
 #
-=======
->>>>>>> bf02e14dfccf299d7779597b71af01a319d7604e
+
+
 # This is a sample deployment manifest file for a simple web application.
 apiVersion: apps/v1
 kind: Deployment
@@ -24,12 +24,8 @@ spec:
     spec:
       containers:
       - name: go-web-app
-<<<<<<< HEAD
+
         image: revathisanapala/webpage1:{{ .Values.image.tag }}
         ports:
         - containerPort: 8080
-=======
-        image: abhishekf5/go-web-app:{{ .Values.image.tag }}
-        ports:
-        - containerPort: 8080
->>>>>>> bf02e14dfccf299d7779597b71af01a319d7604e
+
